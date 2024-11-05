@@ -1,0 +1,271 @@
+:root {
+	--bgcolor: #404040;
+	--contcolor: #202020;
+	--contcolor2: #101010;
+	--accentcolor: #6983ee;
+	--fontcolor: #ffffff;
+	--fontfamily: sans-serif;
+	--margin: 10px;
+	--borderwidth: 5px;
+}
+
+.container {
+	background-color: var(--contcolor);
+	border-radius: var(--margin);
+	border: var(--borderwidth) solid var(--contcolor2);
+	margin: var(--margin);
+	
+}
+
+.floatl {
+	float: left;
+}
+.floatr {
+	float: right;
+}
+
+.radius {
+	border-radius: 20px;
+}
+
+div.fit {
+	width: fit-content;
+	height: fit-content;
+}
+div.fitx {
+	width: fit-content;
+}
+div.fity {
+	height: fit-content;
+}
+
+.grid {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.flexcenter {
+	display: flex;
+	justify-content: center;
+}
+img.center {
+	display: flex;
+	align-self: center;
+}
+h1.center {
+	text-align: center;
+}
+h2.center {
+	text-align: center;
+}
+div.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	margin-left: var(--margin);
+}
+.right {
+	margin-right: var(--margin);
+}
+
+.overflow {
+	overflow: auto;
+}
+
+#sidenav a {
+	padding-bottom: 5%;
+}
+
+.bottom {
+	vertical-align: bottom;
+}
+#fumo.bottom {
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	bottom: 0;
+	margin-top: auto;
+}
+
+.top {
+	vertical-align: top;
+}
+
+.wide {
+	width: 100%;
+}
+
+.white {
+	color: #ffffff;
+}
+
+h1,h2,h3,p,textarea,text,font,label,ol {
+	color: var(--fontcolor);
+	font-family: var(--fontfamily);
+}
+
+a {
+	text-decoration: none;
+	color: #ababff;
+}
+a:hover {
+	color: #d0d0ff;
+}
+
+.pad {
+	padding: var(--margin);
+}
+
+div#sidenav {
+	height: 100%;
+	width: 175px;
+	background: linear-gradient(180deg, var(--contcolor) 75%, #12bbe6 90%, #0c758f 100%);
+	background: linear-gradient(180deg, var(--contcolor) 70%, #151520 90%, #202040 100%);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-radius: 0%;
+	margin: 0%;
+}
+
+body {
+	background-color: var(--bgcolor);
+}
+
+button {
+	cursor: pointer;
+}
+
+.bigpadl {
+		padding-left: 195px;
+}
+
+.transparent {
+	background: none;
+	border: none;
+}
+
+.colored {
+	filter: hue-rotate(180deg);
+}
+
+.cont2 {
+	background-color: var(--contcolor2);
+}
+
+div#player {
+	width: 80%;
+}
+#player p {
+	text-align: center;
+	font-size: x-large;
+	line-height: 140%;
+	vertical-align: auto;
+	margin: 5px;
+}
+
+div#title {
+	background-color: var(--contcolor2);
+	padding: var(--margin) 11%  var(--margin) 11%;
+}
+div#title h1 {
+	background: linear-gradient(to top, #475db5, #aed2ff , #4aabff);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-family: system-ui;
+	font-style: italic;
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: bolder;
+	margin: 0;
+}
+
+div#playarea {
+	width: 700px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: end;
+	border: none;
+}
+#forcex, #forcey {
+	text-align: center;
+	font-size: 25px;
+	display: inline;
+}
+
+#char {
+	width: 20px;
+	height: 20px;
+	position: relative;
+}
+#charbut {
+	padding: 0;
+}
+.maxsize {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+input.number {
+	text-align: center;
+	color: white;
+	background-color: var(--contcolor2);
+	width: 50px;
+}
+input.slider {
+	width: 150px;
+	color: var(--accentcolor);
+	background: var(--contcolor2);
+	outline: none;
+
+}
+
+#imglink input {
+	color: white;
+	background-color: var(--contcolor2);
+	width: 215px;
+}
+
+#size {
+	margin-right: 95px;
+}
+
+ul#stats, ul#stats p {
+	max-width: 170px;
+	overflow: hidden;
+	text-wrap: nowrap;
+}
+
+
+.setting p {
+	text-align: center;
+	line-height: 200%;
+	font-size: 16px;
+}
+.setting * {
+	display: inline;
+	margin-right: var(--margin)
+}
+
+#settings > ul#settinglist > li > div {
+	float: right;	
+}
+#settings > ul {
+	padding: var(--margin);
+	border-radius: var(--margin);
+	background-color: var(--contcolor2);
+	list-style: none;
+}
+#settings > ul#settinglist {
+	margin-right: 20px;
+}

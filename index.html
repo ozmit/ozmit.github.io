@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="foty/favicon.png">
+	<title>Żmitruk - Index </title>
+
+</head>
+<body class="bigpadl" id="index">
+	<div class="container" id="sidenav">
+		<div class="pad grid">
+			
+			<a href="index.html"><div class="container pad cont2 fit flexcenter" style="width: 70%; height:auto">
+				<img src="foty/home.jpg" style="height: 32px">
+			</div></a>
+		</div>
+
+		<div class="flexcenter bottom" id="fumo">
+			<button class="transparent maxsize" type="button">
+				<img class="maxsize" src="foty\fumo.png">
+			</button>
+			<script src="js/fumo.js"></script>
+		</div>
+	</div>
+	
+	<div class="container pad fit floatl">
+		<div id="title" class="center container fit">
+			<h1 class="center linear-text-gradient">𓂀𓋹𓃠𓁈𓅓𓆣𓆃</h1>
+		</div>
+
+		<img src="foty\fumo.gif" class="container" style="width: 450px;">
+
+		<div id="player" class="container center wide fity cont2">
+			<p></p>
+			<script src="js/ip.js"></script>
+		</div>
+	</div>
+
+	<div class="container pad fit floatl">
+		<div class="container cont2" id="playarea">
+			<div id="char"><button type="button" class="transparent maxsize" id="charbut"><img id="uzbekistan" class="maxsize" src=""></button></div>
+		</div>
+
+		<div id="settings">
+			<ul id="settinglist" class="floatl">
+				<li>
+					<div class="setting fit" id="grav">
+						<p>Grawitacja</p>
+						<input step=".1" class="number" type="number">
+						<input step=".1" class="slider" type="range" min="0" max="20">
+					</div>
+				</li>
+				<li>
+					<div class="setting fit" id="friction">
+						<p>Tarcie</p>
+						<input step=".001" class="number" type="number">
+						<input step=".001" class="slider" type="range" min="0" max=".03">
+					</div>
+				</li>
+				<li>
+					<div class="setting fit" id="bounce">
+						<p>Sprężystość</p>
+						<input step=".01" class="number" type="number">
+						<input step=".01" class="slider" type="range" min="0" max="1">
+					</div>
+				</li>
+				<li>
+					<div class="setting fit" id="strength">
+						<p>Siła odbicia</p>
+						<input step="1" class="number" type="number">
+						<input step="1" class="slider" type="range" min="0" max="3000">
+					</div>
+				</li>
+				<li>
+					<div class="setting fit" id="autobounce">
+						<p>Auto-odbicie</p>
+						<input step="1" class="number" type="number">
+						<input step="1" class="slider" type="range" min="-1" max="1000">
+					</div>
+				</li>
+				<li>
+					<div class="setting fit" id="size">
+						<p>Rozmiar X/Y</p>
+						<input step="1" class="number" type="number">
+						<input step="1" class="number" type="number">
+					</div>
+				</li>
+				<li>
+					<div class="setting fit" id="imglink">
+						<p>URL Zdjęcia </p>
+						<input class="text" type="text">
+					</div>
+				</li>
+				
+			</ul>
+
+			<ul id="stats" class="floatl">
+				<li>
+					<p id="posx">Pozycja X:</p>
+				</li>
+				<li>
+					<p id="posy">Pozycja Y:</p>
+				</li>
+				<li>
+					<p id="fx">Prędkość X:</p>
+				</li>
+				<li>
+					<p id="fy">Prędkość Y:</p>
+				</li>
+				<li>
+					<p id="time">Czas:</p>
+				</li>
+			</ul>
+		</div>
+
+	<div class="container fit floatr pad cont2">
+		<a href="js/sim.js" target="_blank">Kod Źródłowy</a>
+	</div>
+	<div class="transparent fit floatr pad" style="margin-top: 120px; margin-right: -20px;">
+		<img src="foty/js.png" width="80px">
+	</div>
+
+		<script src="js/sim.js"></script>
+	</div>
+
+	<div class="container fit floatl">
+		<img src="foty\four-byte-burger.png" class="container" style="width: 330px;">
+	</div>
+</body>
+</html>
